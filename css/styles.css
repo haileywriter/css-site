@@ -1,0 +1,154 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* ------ FONTS ----*/
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /* 16 px= 100 percent and equals 1 em */
+    /*3rem means ignore body em font size */
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color:#66BFBF;
+    font-weight: normal; 
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+br{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+
+/* First Container */
+.first-container{
+    background-color: #afeaff;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.first-container img {
+    width: 20%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 100px;
+    top: 1px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 100px;
+    /* bottom: 100px; */
+    bottom: 75px;
+}
+
+
+/* Middle Part: I'm Hailey */
+.middle-container {
+    margin: 100px 0; 
+ }
+ 
+ .middle-img {
+     width: 15%;
+     border-radius: 50%;;
+ }
+ 
+ .middle-intro{
+     width: 30%;
+     margin: auto;
+     padding-bottom: 50px;
+ }
+
+ /* Skills  */
+ 
+.skill-row{
+    width: 50%;
+    margin: 50px auto 75px auto;
+    text-align: left;
+}
+
+.skill-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill2-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/* Contact Me */
+.contact-message{
+    width:40%;
+    margin: 40px auto 60px;
+}
+
+/* Footer */
+
+.copyright{
+    color:#eaf6f6;
+    font-size:0.75rem;
+    padding: 5px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 20px 0 5px;
+}
+
+
+/* MISC */
+.btn{
+    font-size:15px;
+}
+
+
+.top{
+    padding-top:20px;
+}
+
+@media (max-width: 1028px){
+    .bottom-cloud{
+        position: static;
+    }
+
+    .top-cloud{
+        position: static;
+    }
+}
+
