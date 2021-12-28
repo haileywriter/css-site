@@ -150,5 +150,46 @@ a:hover{
     .top-cloud{
         position: static;
     }
+
+    h1{
+        font-size: 7.625rem; 
+    }
+
+    h2 {
+        font-size: 3rem;
+
+    }
+
+     h3 {
+        font-size: 2rem;
+    } 
+
+    p{
+        line-height: 2;
+        font-size: 2rem;
+    }
+
+    .middle-img {
+        width: 35%;
+        border-radius: 50%;;
+    }
+ 
+    .middle-intro{
+        width: 70%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    /* Skills  */
+    .skill-row{
+        width: 70%;
+        margin: 50px auto 75px auto;
+    }
+
+    /* Contact Me */
+    .contact-message{
+        width:70%;
+    }
 }
+
 
