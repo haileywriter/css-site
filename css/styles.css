@@ -142,7 +142,7 @@ a:hover{
     padding-top:20px;
 }
 
- @media (max-width: 1028px){
+ @media screen and (max-width: 1028px){
     .bottom-cloud{
         position: static;
     }
@@ -154,7 +154,7 @@ a:hover{
 
 
 
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
     .bottom-cloud{
         position: static;
     }
