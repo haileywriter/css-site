@@ -142,19 +142,8 @@ a:hover{
     padding-top:20px;
 }
 
- @media screen and (max-width: 1028px){
-    .bottom-cloud{
-        position: static;
-    }
 
-    .top-cloud{
-        position: static;
-    }
-}
-
-
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1028px){
     .bottom-cloud{
         position: static;
     }
