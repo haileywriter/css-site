@@ -142,7 +142,19 @@ a:hover{
     padding-top:20px;
 }
 
-@media (max-width: 1028px){
+ @media (max-width: 1028px){
+    .bottom-cloud{
+        position: static;
+    }
+
+    .top-cloud{
+        position: static;
+    }
+}
+
+
+
+@media (max-width: 600px){
     .bottom-cloud{
         position: static;
     }
@@ -190,6 +202,9 @@ a:hover{
     .contact-message{
         width:70%;
     }
+
+    .btn{
+        font-size:25px;
+    }
+    
 }
-
-
